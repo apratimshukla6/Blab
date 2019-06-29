@@ -1,1 +1,1 @@
-web: gunicorn -b :$PORT --worker-class socketio.sgunicorn.GeventSocketIOWorker app:app
+gunicorn -k geventwebsocket.gunicorn.workers.GeventWebSocketWorker -w 1 module:app
