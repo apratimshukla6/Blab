@@ -1,5 +1,5 @@
 # Blab
-### Blab is a lightweight chatting application created using Flask and Websockets.
+### Blab is a lightweight chatting application created using Flask and Websockets(Sockets.io).
 ### Currently under construction (prototype available!)
 
 #### Prototype Interface:
